@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0D1B48
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{B88027F3-A666-4977-8600-D53A6D98368B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{725D8033-FF1E-4741-848E-99293A7E02D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "theGreathestNumber", "theGreathestNumber\theGreathestNumber.csproj", "{FE94B831-E4B4-494D-AB53-FBFB9765F1B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{B88027F3-A666-4977-8600-D53A6D98368B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B88027F3-A666-4977-8600-D53A6D98368B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B88027F3-A666-4977-8600-D53A6D98368B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE94B831-E4B4-494D-AB53-FBFB9765F1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE94B831-E4B4-494D-AB53-FBFB9765F1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE94B831-E4B4-494D-AB53-FBFB9765F1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE94B831-E4B4-494D-AB53-FBFB9765F1B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{44DA262C-7F6D-49A3-811B-A9BB530544AE} = {C6469228-A8D5-48AE-A453-8FCBE57587D0}
 		{B88027F3-A666-4977-8600-D53A6D98368B} = {0D1B4802-3395-4A0F-A790-4684E107C5F6}
+		{FE94B831-E4B4-494D-AB53-FBFB9765F1B8} = {725D8033-FF1E-4741-848E-99293A7E02D8}
 	EndGlobalSection
 EndGlobal
