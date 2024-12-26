@@ -1,5 +1,8 @@
 ﻿using Shared;
 
+var answer = string.Empty;
+var options = new List<string> { "s", "n" };
+
 do
 {
     Console.WriteLine("Ingrese 3 numeros diferentes... ");
@@ -47,7 +50,11 @@ do
             Console.WriteLine($"El mayor es {c}, el medio es {b}, y el menor es {a}");
         }
     }
+    do
+    {
+        answer = ConsoleExtension.GetValidOptions("¿Deseas continuar [S]í, [N]o?: ", options);
+    } while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
 
-} while (true);
+} while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
 
-    
+Console.WriteLine("Game Over.");
